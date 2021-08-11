@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    width: 100vh;
+    height: 100vh;
+    overflow: auto;     
+  }
+}
+
+.container {
+  display: flex;
+  background: linear-gradient(to right bottom, #82cbe1, #66acc8);
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #94b2c4;
+  min-width: 0;
+  min-height: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}

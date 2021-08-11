@@ -1,0 +1,60 @@
+.form-container {
+  display: flex;
+}
+
+.task-title {
+  flex: 1;
+  outline: none;
+  width: 200px;
+  padding: 15px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #66acc8;
+  border-radius: 10px;
+}
+
+.task-description {
+  flex: 1;
+  outline: none;
+  width: 850px;
+  padding: 15px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #66acc8;
+  border-radius: 10px;
+}
+
+.datePicker {
+  flex: 1;
+  outline: none;
+  width: 140px;
+  padding: 15px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #66acc8;
+  border-radius: 10px;
+}
+
+.task-title,
+.task-description,
+.datePicker,
+.button-add {
+  margin-bottom: 10px;
+}
+
+.button-add {
+  flex: 1;
+  width: 60px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #71def1;
+  cursor: pointer;
+}

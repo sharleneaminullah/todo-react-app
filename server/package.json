@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "REST API for ToDo App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix ../client/",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "keywords": [],
+  "author": "sharlene aminullah",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "nodemon": "^2.0.12",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^8.3.2"
+  }
+}
